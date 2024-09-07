@@ -1,0 +1,234 @@
+@charset "ISO-8859-1";
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: poppins;
+}
+
+.navbar {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: rgba(0, 0, 0, 0.546);
+  color: white;
+  position: fixed;
+  top: 0;
+  z-index: 999;
+}
+
+.navitems {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+}
+
+.navitems a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  transition: all 0.3s;
+}
+.navitems a:hover {
+  color: dodgerblue;
+}
+
+.logo {
+  font-weight: 700;
+  font-size: 35px;
+}
+
+.button {
+  background-color: dodgerblue;
+  color: white;
+  padding: 5px 20px;
+  border-radius: 9px;
+  border: 1px solid transparent;
+  font-size: 16px;
+  cursor: pointer;
+  text-decoration:none;
+  transition: all 0.3s;
+}
+
+.button:hover {
+  background-color: rgba(0, 0, 0, 0.546);
+  color: dodgerblue;
+  border: 1px solid dodgerblue;
+}
+
+.bgvdo {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.title {
+  font-size: 160px;
+  font-weight: 800;
+  color: white;
+  position: absolute;
+  top: 25%;
+  left: 10%;
+}
+
+.title span {
+  color: dodgerblue;
+}
+
+.para {
+  color: white;
+  font-size: 55px;
+  position: absolute;
+  top: 55%;
+  width: 700px;
+  line-height: 110%;
+  left: 10%;
+  font-weight: 500;
+}
+
+.butt {
+  border: none;
+  color: white;
+  background-color: transparent;
+  border: 1px solid rgb(236, 33, 33);
+  font-size: 20px;
+  padding: 9px 20px;
+  position: absolute;
+  top: 75%;
+  left: 10%;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.butt:hover {
+  background-color: rgb(236, 33, 33);
+  color: white;
+}
+
+.butt2 {
+  background-color: rgb(236, 33, 33);
+  color: black;
+  left: 22%;
+}
+
+.socials {
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 5px;
+  position: fixed;
+
+  background-color: rgba(0, 0, 0, 0.824);
+  top: 30%;
+  right: 1px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  width: 30px;
+}
+
+.socials i {
+  font-size: 25px;
+  color: white;
+  cursor: pointer;
+}
+
+.main-body {
+  margin-top: 100vh;
+  width: 100%;
+  height: 25vh;
+  z-index: 3;
+  background-color: rgb(236, 33, 33);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-body p {
+  color: white;
+  text-align: center;
+  font-size: 40px;
+  line-height: 130%;
+  width: 750px;
+}
+
+.about {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+}
+.imgcont {
+  height: 100%;
+  width: 60%;
+  object-fit: cover;
+}
+.abtsection {
+  background-color: rgb(18, 18, 18);
+  padding: 60px 60px;
+  color: white;
+  width: 100%;
+}
+
+.about-tit {
+  color: white;
+  font-size: 45px;
+  text-transform: uppercase;
+  line-height: 120%;
+  letter-spacing: 10px;
+  font-weight: 700;
+  margin-bottom: 70px;
+}
+
+.tit2 {
+  background-color: rgb(236, 33, 33);
+}
+
+.tit2 p {
+  margin: 50px 0px;
+}
+
+.about-tit span {
+  font-size: 25px;
+  letter-spacing: 0;
+  text-transform: none;
+}
+
+.parallax {
+  width: 100%;
+  height: 80vh;
+  background-attachment: fixed;
+  background-image: url("https://png.pngtree.com/background/20230516/original/pngtree-dark-gym-where-you-can-take-in-the-surrounding-light-picture-image_2611114.jpg");
+  background-size: cover;
+}
+
+.contact {
+  width: 100%;
+  background-color: rgb(18, 18, 18);
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 50vh;
+}
+.details {
+  text-align: left;
+  padding: 60px;
+}
+
+.details p {
+  margin: 10px 0px;
+  font-size: 20px;
+}
+
+p i {
+  color: dodgerblue;
+  margin-right: 20px;
+}
